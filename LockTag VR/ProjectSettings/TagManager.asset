@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - DestinationPoint
+  - PlayerBodyMass
+  - FinishLine
+  - ExcludeTeleport
+  - RopeHinge
+  - Connector
+  - Tag_SwivelChairPrototype
+  - Tag_Tools
+  - Tag_SnapTest1
+  - Tag_SnapTest3
+  - Tag_SnapTest2
+  - Highlightable
+  - RTriggerTooltip
+  - RGripTooltip
+  - RTouchpadTooltip
+  - RButtonOneTooltip
+  - RButtonTwoTooltip
+  - RStartMenuTooltip
+  - LTriggerTooltip
+  - LGripTooltip
+  - LTouchpadTooltip
+  - LButtonOneTooltip
+  - LButtonTwoTooltip
+  - LStartMenuTooltip
+  - Tooltip
+  - GreenCubeTooltip
+  - RedCubeTooltip
+  - Visor
+  - SodaCan
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Clipboard
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

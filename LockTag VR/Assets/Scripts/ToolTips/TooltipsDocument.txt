@@ -1,0 +1,43 @@
+**Tool Tips**				  ++++++++++++++
+							 ++++++++++++++++
+						     000/000000000/00
+							 00/00------/0000
+							 0/000------00/00
+							  ------||-------
+							  ---++++++++---					 
+							  ---+||||||+---
+							  ++++||||||++++
+							  ++++++++++++++
+							   ++++++++++++
+							    
+
+-In order to get the Tool Tips feature to work correctly you will want to make sure you follow these steps when setting it up from scratch.
+
+	-Make sure to provide correct tag to every tooltip gamobject. Each tooltip game object will have a tool tip child.
+
+	-First, notice that parents to the child tool tip objects have tags "Tooltip". This simply so you can enable/disable all tool tips.
+	 Tool tip object children of those parents have tags that are similar to their actual parents object name, this is so you can enable/disable individual
+	 tool tip objects at a time. 
+	
+	-Say you want a cube to have a tool tip. Add a tool tip object like the green cube has in this example scene (ToolTips Scene). Name that tool tip object something similar
+	 to its parent to make it easy to identify later. In the scene example you have GreenCube object with a tool tip object in it named "GreenCubeTooltip".
+	 Notice that GreenCubeTooltip has a child named  "GreenCubeTooltipChild" which is essential for it to work properly.
+	
+	-Add a tool tip child to every controller button you want to be a tool tip, so probably all of them.
+	
+	-In example scene you will see controller tool tips child objects on every controller button. Each parent of that child will be have the tag "Tooltip". Every tool tip 
+	 child object of that parent will have tag similar to its name to make it easy for anyone to find it. In this example scene you will find RightController which has the child object TriggerTooltip.
+	 In TriggerTooltip you have RTooltipChild. RToolTooltipChild is an additional child tool tip object and has the tag "RTriggerTooltip". The reason for this additional child object
+	 is so we can differentiate from left controller and right controller buttons since VRTK has named buttons similarily on both controllers.
+
+	
+	----When calling the AllToolTips() function, you will either fill parameter with true or false which will activate or deactivate all tool tips.
+
+	 ----When calling the ToolTipSolo() function, you will be passing a string that is the name of the tool tip object. This needs to be the same as the 
+	     tag of the tool tip child object in order to work. After that parameter you will type in either true or false to activate or deactivate the objects tool tip.
+
+	
+***Important*** Make sure to tag tool tip objects correctly and give each object that is a tool tip a child tool tip object.
+				Also, leave [hide when not in view] option unchecked as is will reactivate controller tool tips.
+
+	
