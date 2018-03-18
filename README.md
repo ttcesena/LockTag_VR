@@ -1,7 +1,7 @@
 # LockTag_VR
 Class Project for Game Studio 2 2018
 
-<h2>Things that I've worked on: </h2>
+<h2>Scripts I've completed so far: </h2>
 <ul>
   <li><a href="https://github.com/ttcesena/LockTag_VR/blob/master/LockTag%20VR/Assets/Scenes/Prototype/Scenes%5BTristanC%5D/LT_Wire.cs?">LT_Wire</a></li>
     <li><a href="https://github.com/ttcesena/LockTag_VR/blob/master/LockTag%20VR/Assets/Scenes/Prototype/Scenes%5BTristanC%5D/LT_WireCheck.cs?">LT_WireCheck</a></li>
